@@ -91,14 +91,14 @@ public final class GCEItems {
         );
         RESTORATION_CHAMBER = GeneticChickengineering.getLocalization().getItem(
             "RESTORATION_CHAMBER",
-            Material.PINK_SHULKER_BOX,
+            Material.PINK_CONCRETE,
             "",
             LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE),
             LoreBuilder.powerPerSecond(4)
         );
         GROWTH_CHAMBER = GeneticChickengineering.getLocalization().getItem(
             "GROWTH_CHAMBER",
-            Material.GREEN_SHULKER_BOX,
+            Material.LIME_CONCRETE,
             "",
             LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE),
             LoreBuilder.powerPerSecond(20)
