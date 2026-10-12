@@ -116,6 +116,9 @@ public class ExcitationChamber extends AbstractMachine {
                 chickResource = resourceIcon.clone();
             }
 
+            // Output is multiplied by the number of chickens in the stack (capped at the output's max stack size)
+            chickResource.setAmount(Math.min(chicken.getAmount(), chickResource.getMaxStackSize()));
+
             /* Speed calculation
              * All recipes have a base speed of 14 (by default)
              * All recipes add 1 second/DNA tier
